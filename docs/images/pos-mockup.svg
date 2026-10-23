@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="100%" height="auto">
+  <defs>
+    <linearGradient id="posBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="560" rx="16" fill="url(#posBg)"/>
+  
+  <!-- Header Bar -->
+  <g transform="translate(40, 30)">
+    <rect width="920" height="48" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="20" y="30" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="800" fill="#ffffff">
+      💻 GLOW &amp; CARE POS TERMINAL • BANANI 11 OUTLET
+    </text>
+    <rect x="760" y="10" width="140" height="28" rx="6" fill="#10b981" fill-opacity="0.2"/>
+    <text x="778" y="28" font-family="sans-serif" font-size="11" font-weight="700" fill="#34d399">COUNTER 01 • OPEN</text>
+  </g>
+
+  <!-- Left: Product Catalog Grid -->
+  <g transform="translate(40, 95)" filter="url(#shadow)">
+    <rect width="550" height="430" rx="12" fill="#0f172a" stroke="#334155"/>
+    <text x="20" y="32" font-family="sans-serif" font-size="13" font-weight="700" fill="#e2e8f0">🔍 Barcode / Fast Product Grid</text>
+
+    <!-- Search Input -->
+    <rect x="20" y="46" width="510" height="36" rx="8" fill="#1e293b" stroke="#475569"/>
+    <text x="36" y="69" font-family="sans-serif" font-size="12" fill="#94a3b8">Scan Barcode (8809...) or type product name...</text>
+
+    <!-- Product Card 1 -->
+    <g transform="translate(20, 98)">
+      <rect width="160" height="145" rx="8" fill="#1e293b" stroke="#334155"/>
+      <rect x="10" y="10" width="140" height="55" rx="6" fill="#0f172a"/>
+      <text x="60" y="42" font-family="sans-serif" font-size="20">✨</text>
+      <text x="12" y="82" font-family="sans-serif" font-size="10" font-weight="700" fill="#34d399">COSRX</text>
+      <text x="12" y="98" font-family="sans-serif" font-size="11" font-weight="700" fill="#f8fafc">Snail 96 Essence</text>
+      <text x="12" y="114" font-family="sans-serif" font-size="9" fill="#94a3b8">Stock: 35 pcs</text>
+      <text x="12" y="134" font-family="sans-serif" font-size="13" font-weight="800" fill="#10b981">৳1,750</text>
+      <rect x="100" y="118" width="50" height="20" rx="4" fill="#10b981"/>
+      <text x="110" y="132" font-family="sans-serif" font-size="9" font-weight="800" fill="#064e3b">+ ADD</text>
+    </g>
+
+    <!-- Product Card 2 -->
+    <g transform="translate(195, 98)">
+      <rect width="160" height="145" rx="8" fill="#1e293b" stroke="#334155"/>
+      <rect x="10" y="10" width="140" height="55" rx="6" fill="#0f172a"/>
+      <text x="60" y="42" font-family="sans-serif" font-size="20">☀️</text>
+      <text x="12" y="82" font-family="sans-serif" font-size="10" font-weight="700" fill="#38bdf8">Beauty of Joseon</text>
+      <text x="12" y="98" font-family="sans-serif" font-size="11" font-weight="700" fill="#f8fafc">Relief Sun SPF50+</text>
+      <text x="12" y="114" font-family="sans-serif" font-size="9" fill="#94a3b8">Stock: 28 pcs</text>
+      <text x="12" y="134" font-family="sans-serif" font-size="13" font-weight="800" fill="#38bdf8">৳1,350</text>
+      <rect x="100" y="118" width="50" height="20" rx="4" fill="#38bdf8"/>
+      <text x="110" y="132" font-family="sans-serif" font-size="9" font-weight="800" fill="#082f49">+ ADD</text>
+    </g>
+
+    <!-- Product Card 3 -->
+    <g transform="translate(370, 98)">
+      <rect width="160" height="145" rx="8" fill="#1e293b" stroke="#334155"/>
+      <rect x="10" y="10" width="140" height="55" rx="6" fill="#0f172a"/>
+      <text x="60" y="42" font-family="sans-serif" font-size="20">🌿</text>
+      <text x="12" y="82" font-family="sans-serif" font-size="10" font-weight="700" fill="#a78bfa">Anua</text>
+      <text x="12" y="98" font-family="sans-serif" font-size="11" font-weight="700" fill="#f8fafc">Heartleaf 77%</text>
+      <text x="12" y="114" font-family="sans-serif" font-size="9" fill="#94a3b8">Stock: 22 pcs</text>
+      <text x="12" y="134" font-family="sans-serif" font-size="13" font-weight="800" fill="#a78bfa">৳1,890</text>
+      <rect x="100" y="118" width="50" height="20" rx="4" fill="#a78bfa"/>
+      <text x="110" y="132" font-family="sans-serif" font-size="9" font-weight="800" fill="#2e1065">+ ADD</text>
+    </g>
+
+    <!-- Product Card 4 -->
+    <g transform="translate(20, 260)">
+      <rect width="160" height="145" rx="8" fill="#1e293b" stroke="#334155"/>
+      <rect x="10" y="10" width="140" height="55" rx="6" fill="#0f172a"/>
+      <text x="60" y="42" font-family="sans-serif" font-size="20">💧</text>
+      <text x="12" y="82" font-family="sans-serif" font-size="10" font-weight="700" fill="#fbbf24">The Ordinary</text>
+      <text x="12" y="98" font-family="sans-serif" font-size="11" font-weight="700" fill="#f8fafc">Niacinamide 10%</text>
+      <text x="12" y="114" font-family="sans-serif" font-size="9" fill="#94a3b8">Stock: 40 pcs</text>
+      <text x="12" y="134" font-family="sans-serif" font-size="13" font-weight="800" fill="#fbbf24">৳1,190</text>
+      <rect x="100" y="118" width="50" height="20" rx="4" fill="#fbbf24"/>
+      <text x="110" y="132" font-family="sans-serif" font-size="9" font-weight="800" fill="#451a03">+ ADD</text>
+    </g>
+
+    <!-- Product Card 5 -->
+    <g transform="translate(195, 260)">
+      <rect width="160" height="145" rx="8" fill="#1e293b" stroke="#334155"/>
+      <rect x="10" y="10" width="140" height="55" rx="6" fill="#0f172a"/>
+      <text x="60" y="42" font-family="sans-serif" font-size="20">🧴</text>
+      <text x="12" y="82" font-family="sans-serif" font-size="10" font-weight="700" fill="#34d399">CeraVe</text>
+      <text x="12" y="98" font-family="sans-serif" font-size="11" font-weight="700" fill="#f8fafc">Foaming Cleanser</text>
+      <text x="12" y="114" font-family="sans-serif" font-size="9" fill="#94a3b8">Stock: 18 pcs</text>
+      <text x="12" y="134" font-family="sans-serif" font-size="13" font-weight="800" fill="#34d399">৳1,850</text>
+      <rect x="100" y="118" width="50" height="20" rx="4" fill="#34d399"/>
+      <text x="110" y="132" font-family="sans-serif" font-size="9" font-weight="800" fill="#064e3b">+ ADD</text>
+    </g>
+
+    <!-- Product Card 6 -->
+    <g transform="translate(370, 260)">
+      <rect width="160" height="145" rx="8" fill="#1e293b" stroke="#334155"/>
+      <rect x="10" y="10" width="140" height="55" rx="6" fill="#0f172a"/>
+      <text x="60" y="42" font-family="sans-serif" font-size="20">🌊</text>
+      <text x="12" y="82" font-family="sans-serif" font-size="10" font-weight="700" fill="#38bdf8">Round Lab</text>
+      <text x="12" y="98" font-family="sans-serif" font-size="11" font-weight="700" fill="#f8fafc">1025 Dokdo Cream</text>
+      <text x="12" y="114" font-family="sans-serif" font-size="9" fill="#94a3b8">Stock: 15 pcs</text>
+      <text x="12" y="134" font-family="sans-serif" font-size="13" font-weight="800" fill="#38bdf8">৳1,790</text>
+      <rect x="100" y="118" width="50" height="20" rx="4" fill="#38bdf8"/>
+      <text x="110" y="132" font-family="sans-serif" font-size="9" font-weight="800" fill="#082f49">+ ADD</text>
+    </g>
+  </g>
+
+  <!-- Right: Cart & 80mm Receipt Preview -->
+  <g transform="translate(610, 95)" filter="url(#shadow)">
+    <rect width="350" height="430" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+    
+    <!-- Receipt Header -->
+    <g transform="translate(20, 20)">
+      <text x="155" y="16" font-family="sans-serif" font-size="13" font-weight="900" fill="#0f172a" text-anchor="middle">GLOW &amp; CARE SKINCARE</text>
+      <text x="155" y="30" font-family="sans-serif" font-size="10" fill="#64748b" text-anchor="middle">বনানী ১১ ফ্ল্যাগশিপ শোরুম, ঢাকা</text>
+      <text x="155" y="44" font-family="monospace" font-size="9" fill="#94a3b8" text-anchor="middle">রসিদ: POS-261023-C303 | হটলাইন: ০১৭১১-০০০০০০</text>
+      
+      <line x1="0" y1="55" x2="310" y2="55" stroke="#cbd5e1" stroke-dasharray="4 2"/>
+
+      <!-- Cart Item 1 -->
+      <text x="0" y="75" font-family="sans-serif" font-size="11" font-weight="700" fill="#0f172a">1x COSRX Snail 96 Mucin Essence</text>
+      <text x="250" y="75" font-family="sans-serif" font-size="11" font-weight="700" fill="#0f172a" text-anchor="end">৳১,৭৫০</text>
+
+      <!-- Cart Item 2 -->
+      <text x="0" y="98" font-family="sans-serif" font-size="11" font-weight="700" fill="#0f172a">1x BOJ Relief Sun SPF50+ PA++++</text>
+      <text x="250" y="98" font-family="sans-serif" font-size="11" font-weight="700" fill="#0f172a" text-anchor="end">৳১,৩৫০</text>
+
+      <line x1="0" y1="112" x2="310" y2="112" stroke="#cbd5e1" stroke-dasharray="4 2"/>
+
+      <!-- Summary -->
+      <text x="0" y="132" font-family="sans-serif" font-size="11" fill="#64748b">সাবটোটাল (Subtotal):</text>
+      <text x="250" y="132" font-family="sans-serif" font-size="11" fill="#0f172a" text-anchor="end">৳৩,১০০</text>
+
+      <text x="0" y="150" font-family="sans-serif" font-size="11" fill="#dc2626">ডিসকাউন্ট (Discount):</text>
+      <text x="250" y="150" font-family="sans-serif" font-size="11" fill="#dc2626" text-anchor="end">-৳১০০</text>
+
+      <line x1="0" y1="162" x2="310" y2="162" stroke="#059669" stroke-width="2"/>
+
+      <text x="0" y="185" font-family="sans-serif" font-size="14" font-weight="900" fill="#059669">সর্বমোট প্রদেয় (Net Total):</text>
+      <text x="250" y="185" font-family="sans-serif" font-size="16" font-weight="900" fill="#059669" text-anchor="end">৳৩,০০০</text>
+
+      <rect x="0" y="200" width="310" height="28" rx="6" fill="#ecfdf5" stroke="#a7f3d0"/>
+      <text x="155" y="218" font-family="sans-serif" font-size="11" font-weight="700" fill="#065f46" text-anchor="middle">✓ PAID VIA BKASH MERCHANT (Trx: 9H8F102)</text>
+
+      <!-- Customer Loyalty -->
+      <rect x="0" y="238" width="310" height="42" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="12" y="255" font-family="sans-serif" font-size="10" font-weight="700" fill="#1e293b">গ্রাহক: সাদিয়া সুলতানা (017XXXXXXXX)</text>
+      <text x="12" y="270" font-family="sans-serif" font-size="9" fill="#059669">লয়্যালটি পয়েন্ট অর্জিত: +৩০ পয়েন্ট (মোট: ২১০)</text>
+
+      <!-- Buttons -->
+      <rect x="0" y="295" width="310" height="42" rx="8" fill="#059669"/>
+      <text x="155" y="321" font-family="sans-serif" font-size="13" font-weight="800" fill="#ffffff" text-anchor="middle">🖨️ PRINT 80MM BANGLA THERMAL RECEIPT</text>
+
+      <rect x="0" y="345" width="310" height="34" rx="8" fill="#0f172a"/>
+      <text x="155" y="367" font-family="sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">NEW SALE (F2)</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" width="100%" height="auto">
+  <defs>
+    <linearGradient id="skinBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#042f2e"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="diagShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="480" rx="16" fill="url(#skinBg)"/>
+
+  <!-- Top Title -->
+  <g transform="translate(50, 26)">
+    <rect width="250" height="26" rx="13" fill="#14b8a6" fill-opacity="0.15"/>
+    <text x="125" y="17" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="700" fill="#2dd4bf" text-anchor="middle">
+      AI SKIN DIAGNOSTIC &amp; CONSULTATION HUB
+    </text>
+    <text x="0" y="52" font-family="sans-serif" font-size="22" font-weight="900" fill="#ffffff">
+      স্মার্ট এআই স্কিন অ্যানালাইজার ও পারসোনালাইজড রুটিন বিল্ডার
+    </text>
+  </g>
+
+  <!-- 3 Interactive Workflow Steps -->
+  <g transform="translate(50, 95)">
+    
+    <!-- Step 1 Card -->
+    <g transform="translate(0, 0)" filter="url(#diagShadow)">
+      <rect width="280" height="345" rx="12" fill="#134e4a" fill-opacity="0.6" stroke="#2dd4bf" stroke-opacity="0.3"/>
+      <rect x="18" y="18" width="80" height="22" rx="4" fill="#0f766e"/>
+      <text x="58" y="33" font-family="sans-serif" font-size="10" font-weight="700" fill="#a7f3d0" text-anchor="middle">STEP 01</text>
+      
+      <text x="18" y="65" font-family="sans-serif" font-size="15" font-weight="800" fill="#ffffff">স্কিন প্রোফাইল ইনপুট</text>
+      <text x="18" y="82" font-family="sans-serif" font-size="10" fill="#99f6e4">গ্রাহকের ত্বকের ধরন ও লক্ষণ:</text>
+
+      <g transform="translate(18, 98)" font-family="sans-serif" font-size="11">
+        <rect width="244" height="34" rx="6" fill="#042f2e" stroke="#14b8a6" stroke-opacity="0.4"/>
+        <text x="12" y="21" fill="#f8fafc">✓ ধরন: মিশ্র ও তৈলাক্ত ত্বক (Combo)</text>
+
+        <rect y="42" width="244" height="34" rx="6" fill="#042f2e" stroke="#14b8a6" stroke-opacity="0.4"/>
+        <text x="12" y="63" fill="#f8fafc">✓ প্রধান সমস্যা: মেছতা ও রোদে পোড়া দাগ</text>
+
+        <rect y="84" width="244" height="34" rx="6" fill="#042f2e" stroke="#14b8a6" stroke-opacity="0.4"/>
+        <text x="12" y="105" fill="#f8fafc">✓ সেনসিটিভিটি: রোদে লালচে ভাব হয়</text>
+
+        <rect y="126" width="244" height="34" rx="6" fill="#042f2e" stroke="#14b8a6" stroke-opacity="0.4"/>
+        <text x="12" y="147" fill="#f8fafc">✓ পরিবেশ: ঢাকার ধুলাবালি ও ট্রাফিক</text>
+      </g>
+
+      <rect x="18" y="285" width="244" height="36" rx="8" fill="#14b8a6"/>
+      <text x="140" y="307" font-family="sans-serif" font-size="11" font-weight="800" fill="#042f2e" text-anchor="middle">
+        ✨ AI বিশ্লেষণ শুরু করুন &rarr;
+      </text>
+    </g>
+
+    <!-- Step 2 Card: AI Generated Routine -->
+    <g transform="translate(310, 0)" filter="url(#diagShadow)">
+      <rect width="320" height="345" rx="12" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.3"/>
+      <rect x="18" y="18" width="80" height="22" rx="4" fill="#0369a1"/>
+      <text x="58" y="33" font-family="sans-serif" font-size="10" font-weight="700" fill="#bae6fd" text-anchor="middle">STEP 02</text>
+
+      <text x="18" y="65" font-family="sans-serif" font-size="15" font-weight="800" fill="#ffffff">বিশেষজ্ঞ প্রেসক্রিপশন</text>
+      <text x="18" y="82" font-family="sans-serif" font-size="10" fill="#7dd3fc">সকাল ও রাতের সুনির্দিষ্ট নিয়মাবলী:</text>
+
+      <!-- Routine Box -->
+      <g transform="translate(18, 98)" font-family="sans-serif">
+        <rect width="284" height="220" rx="8" fill="#1e293b" stroke="#334155"/>
+        
+        <text x="12" y="22" font-size="11" font-weight="800" fill="#38bdf8">☀️ সকালের রুটিন (AM):</text>
+        <text x="12" y="38" font-size="9" fill="#e2e8f0">১. জেন্টল ফোমিং ক্লিনজার (COSRX Low pH)</text>
+        <text x="12" y="52" font-size="9" fill="#e2e8f0">২. নায়াসিনামাইড ১০% সিরাম (দাগ দূরীকরণে)</text>
+        <text x="12" y="66" font-size="9" fill="#e2e8f0">৩. এসপিএফ ৫০+ সানস্ক্রিন (Beauty of Joseon)</text>
+
+        <line x1="12" y1="80" x2="272" y2="80" stroke="#334155"/>
+
+        <text x="12" y="100" font-size="11" font-weight="800" fill="#c084fc">🌙 রাতের রুটিন (PM):</text>
+        <text x="12" y="116" font-size="9" fill="#e2e8f0">১. ডাবল ক্লিনজিং (ধূলোবালি দূরীকরণে)</text>
+        <text x="12" y="130" font-size="9" fill="#e2e8f0">২. স্নেল মিউসিন ৯৬ এসেন্স (হাইড্রেশন ও রিপেয়ার)</text>
+        <text x="12" y="144" font-size="9" fill="#e2e8f0">৩. সেরামাইড ব্যারিয়ার নাইট ক্রিম</text>
+
+        <rect x="12" y="160" width="260" height="45" rx="6" fill="#0284c7" fill-opacity="0.15" stroke="#0284c7"/>
+        <text x="20" y="177" font-size="8" font-weight="700" fill="#38bdf8">💡 বিশেষজ্ঞ টিপস:</text>
+        <text x="20" y="192" font-size="8" fill="#bae6fd">রোদে বের হওয়ার অন্তত ২০ মিনিট আগে সানস্ক্রিন লাগান।</text>
+      </g>
+    </g>
+
+    <!-- Step 3 Card: Matched Regimen Products -->
+    <g transform="translate(660, 0)" filter="url(#diagShadow)">
+      <rect width="240" height="345" rx="12" fill="#134e4a" fill-opacity="0.4" stroke="#10b981" stroke-opacity="0.3"/>
+      <rect x="18" y="18" width="80" height="22" rx="4" fill="#047857"/>
+      <text x="58" y="33" font-family="sans-serif" font-size="10" font-weight="700" fill="#d1fae5" text-anchor="middle">STEP 03</text>
+
+      <text x="18" y="65" font-family="sans-serif" font-size="15" font-weight="800" fill="#ffffff">সুপারিশকৃত পণ্যসমূহ</text>
+      <text x="18" y="82" font-family="sans-serif" font-size="10" fill="#6ee7b7">১-ক্লিকে কার্ট বা অর্ডারে যুক্ত:</text>
+
+      <g transform="translate(18, 98)" font-family="sans-serif">
+        <rect width="204" height="60" rx="6" fill="#042f2e" stroke="#10b981" stroke-opacity="0.3"/>
+        <text x="10" y="20" font-size="10" font-weight="700" fill="#f8fafc">COSRX Snail 96 Essence</text>
+        <text x="10" y="34" font-size="9" fill="#94a3b8">১০০ মি.লি. • কোরিয়ান অরিজিনাল</text>
+        <text x="10" y="50" font-size="11" font-weight="800" fill="#34d399">৳১,৭৫০</text>
+
+        <rect y="70" width="204" height="60" rx="6" fill="#042f2e" stroke="#10b981" stroke-opacity="0.3"/>
+        <text x="10" y="90" font-size="10" font-weight="700" fill="#f8fafc">BOJ Relief Sun SPF50+</text>
+        <text x="10" y="104" font-size="9" fill="#94a3b8">৫০ মি.লি. • অর্গানিক সানস্ক্রিন</text>
+        <text x="10" y="120" font-size="11" font-weight="800" fill="#38bdf8">৳১,৩৫০</text>
+
+        <rect y="150" width="204" height="35" rx="6" fill="#10b981"/>
+        <text x="102" y="172" font-size="11" font-weight="800" fill="#064e3b" text-anchor="middle">
+          🛍️ সম্পূর্ণ রুটিন কিনুন (৳৩,১০০)
+        </text>
+      </g>
+    </g>
+
+  </g>
+</svg>

@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="100%" height="auto">
+  <defs>
+    <linearGradient id="funnelBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <filter id="fShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="520" rx="16" fill="url(#funnelBg)"/>
+
+  <!-- Top Ribbon -->
+  <g transform="translate(50, 24)">
+    <rect width="900" height="38" rx="8" fill="#e11d48"/>
+    <text x="450" y="24" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="800" fill="#ffffff" text-anchor="middle">
+      🔥 স্পেশাল অফার: আজই অর্ডার করলে পাবেন নিশ্চিত আসল কোরিয়ান স্কিনকেয়ার ও ফ্রি ক্যাশ অন ডেলিভারি সাপোর্ট!
+    </text>
+  </g>
+
+  <!-- Left: Landing Page Content Preview -->
+  <g transform="translate(50, 78)" filter="url(#fShadow)">
+    <rect width="520" height="410" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    
+    <g transform="translate(24, 24)">
+      <rect width="160" height="24" rx="12" fill="#ecfdf5"/>
+      <text x="80" y="16" font-family="sans-serif" font-size="10" font-weight="700" fill="#065f46" text-anchor="middle">COSRX • SOUTH KOREA</text>
+
+      <text x="0" y="58" font-family="sans-serif" font-size="20" font-weight="900" fill="#0f172a">
+        COSRX Advanced Snail 96 Mucin
+      </text>
+      <text x="0" y="80" font-family="sans-serif" font-size="14" font-weight="700" fill="#059669">
+        ৭ দিনে স্পষ্ট গ্লো ও সুস্থ স্কিন ব্যারিয়ারের কোরিয়ান সিক্রেট!
+      </text>
+
+      <!-- Price Box -->
+      <g transform="translate(0, 96)">
+        <rect width="472" height="60" rx="10" fill="#f0fdf4" stroke="#bbf7d0"/>
+        <text x="18" y="26" font-family="sans-serif" font-size="11" font-weight="600" fill="#15803d">অফার মূল্য (Discount Price):</text>
+        <text x="18" y="48" font-family="sans-serif" font-size="24" font-weight="900" fill="#14532d">৳১,৭৫০</text>
+        <text x="115" y="48" font-family="sans-serif" font-size="14" text-decoration="line-through" fill="#94a3b8">৳২,১০০</text>
+        <rect x="180" y="32" width="65" height="20" rx="4" fill="#dc2626"/>
+        <text x="190" y="46" font-family="sans-serif" font-size="10" font-weight="800" fill="#ffffff">১৭% ছাড়</text>
+        <text x="450" y="38" font-family="sans-serif" font-size="11" font-weight="700" fill="#059669" text-anchor="end">✓ ইন স্টক</text>
+      </g>
+
+      <!-- Key Benefits Bullet Points -->
+      <g transform="translate(0, 172)">
+        <text x="0" y="16" font-family="sans-serif" font-size="12" font-weight="800" fill="#0f172a">উপকারিতা ও বৈশিষ্ট্য:</text>
+        
+        <rect x="0" y="26" width="472" height="110" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+        <text x="16" y="48" font-family="sans-serif" font-size="11" fill="#334155">✓ ৯৬.৩% আসল স্নেল সিক্রেশন সমৃদ্ধ কোরিয়ান বেস্টসেলার এসেন্স</text>
+        <text x="16" y="70" font-family="sans-serif" font-size="11" fill="#334155">✓ ব্রণের গর্ত ও কালো দাগ দূর করে স্কিন ব্যারিয়ার রিপেয়ার করে</text>
+        <text x="16" y="92" font-family="sans-serif" font-size="11" fill="#334155">✓ বিএসটিআই ও কিউআর বারকোড ভেরিফায়েড ১০০% জেনুইন</text>
+        <text x="16" y="114" font-family="sans-serif" font-size="11" fill="#334155">✓ সারা বাংলাদেশে হোম ডেলিভারিতে পণ্য দেখে টাকা পরিশোধের সুযোগ</text>
+      </g>
+
+      <!-- Guarantee Badge -->
+      <g transform="translate(0, 320)">
+        <rect width="472" height="38" rx="8" fill="#ecfdf5" stroke="#a7f3d0"/>
+        <text x="16" y="24" font-family="sans-serif" font-size="11" font-weight="700" fill="#065f46">
+          🛡️ নকল প্রমাণে শতভাগ টাকা ফেরত গ্যারান্টি!
+        </text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right: 1-Click Checkout Form -->
+  <g transform="translate(590, 78)" filter="url(#fShadow)">
+    <rect width="360" height="410" rx="14" fill="#ffffff" stroke="#10b981" stroke-width="2"/>
+    
+    <g transform="translate(20, 20)">
+      <rect x="0" y="0" width="320" height="26" rx="6" fill="#f43f5e" fill-opacity="0.1"/>
+      <text x="160" y="17" font-family="sans-serif" font-size="11" font-weight="800" fill="#e11d48" text-anchor="middle">
+        অর্ডার কনফার্ম করতে ফর্মটি পূরণ করুন
+      </text>
+
+      <!-- Input 1: Name -->
+      <text x="0" y="45" font-family="sans-serif" font-size="10" font-weight="700" fill="#334155">আপনার নাম *</text>
+      <rect x="0" y="52" width="320" height="30" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="10" y="72" font-family="sans-serif" font-size="11" fill="#0f172a">আয়েশা রহমান</text>
+
+      <!-- Input 2: Mobile -->
+      <text x="0" y="98" font-family="sans-serif" font-size="10" font-weight="700" fill="#334155">মোবাইল নাম্বার *</text>
+      <rect x="0" y="105" width="320" height="30" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="10" y="125" font-family="sans-serif" font-size="11" fill="#0f172a">01712345678</text>
+
+      <!-- Input 3: Delivery Zone -->
+      <text x="0" y="151" font-family="sans-serif" font-size="10" font-weight="700" fill="#334155">ডেলিভারি এলাকা *</text>
+      <rect x="0" y="158" width="320" height="30" rx="6" fill="#ecfdf5" stroke="#10b981"/>
+      <text x="10" y="178" font-family="sans-serif" font-size="11" font-weight="700" fill="#065f46">ঢাকার ভেতর (হোম ডেলিভারি) - ৳৬০</text>
+
+      <!-- Input 4: Address -->
+      <text x="0" y="204" font-family="sans-serif" font-size="10" font-weight="700" fill="#334155">সম্পূর্ণ ঠিকানা *</text>
+      <rect x="0" y="211" width="320" height="34" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="10" y="228" font-family="sans-serif" font-size="10" fill="#0f172a">হাউজ ১৫, রোড ৪, ধানমন্ডি, ঢাকা</text>
+
+      <!-- Price Breakdown -->
+      <g transform="translate(0, 255)">
+        <rect width="320" height="48" rx="6" fill="#f1f5f9"/>
+        <text x="10" y="18" font-family="sans-serif" font-size="10" fill="#64748b">পণ্যের মূল্য: ৳১,৭৫০ + কুরিয়ার চার্জ: ৳৬০</text>
+        <text x="10" y="38" font-family="sans-serif" font-size="13" font-weight="900" fill="#0f172a">সর্বমোট প্রদেয়: <tspan fill="#059669">৳১,৮১০</tspan></text>
+        <rect x="230" y="14" width="80" height="20" rx="4" fill="#059669" fill-opacity="0.15"/>
+        <text x="240" y="28" font-family="sans-serif" font-size="9" font-weight="800" fill="#047857">CASH ON DEL</text>
+      </g>
+
+      <!-- Submit CTA Button -->
+      <rect x="0" y="318" width="320" height="44" rx="10" fill="#059669"/>
+      <text x="160" y="345" font-family="sans-serif" font-size="13" font-weight="900" fill="#ffffff" text-anchor="middle">
+        🛍️ অর্ডার কনফার্ম করুন (ক্যাশ অন ডেলিভারি)
+      </text>
+    </g>
+  </g>
+</svg>
