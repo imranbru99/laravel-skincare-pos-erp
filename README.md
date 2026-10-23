@@ -244,8 +244,8 @@ Test all operational roles instantly using the 1-click login switcher at [`/demo
 
 ### 2. Clone Repository & Install Dependencies
 ```bash
-git clone https://github.com/imranbru99/skincare.git
-cd skincare
+git clone https://github.com/imranbru99/laravel-skincare-pos-erp.git
+cd laravel-skincare-pos-erp
 
 # Install PHP packages
 composer install
